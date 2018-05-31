@@ -44,7 +44,7 @@ exports.config = {
         // 5 instances get started at a time.
         maxInstances: 5,
         //
-        browserName: 'chrome'
+        browserName: 'firefox'
     }],
     //
     // ===================
@@ -133,7 +133,7 @@ exports.config = {
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
     cucumberOpts: {
-	timeout: 20000,
+	timeout: 60000,
 	require: [
 		'./test/steps/basic.js'
 	]
