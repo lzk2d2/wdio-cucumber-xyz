@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "wdio-allure-reporter": "^0.6.2",
     "wdio-cucumber-framework": "^2.1.0",
     "wdio-junit-reporter": "^0.4.3",
     "wdio-mocha-framework": "^0.5.13",
